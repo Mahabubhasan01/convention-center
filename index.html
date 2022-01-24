@@ -15,36 +15,48 @@
 <body>
     <!-- ======================================================================= -->
     <!-- Header part start  -->
-    <header class="my-1">
+    <header class="mt-2" id="home">
         <!-- Navigation-bar  -->
         <section class="container">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Niagara Falls Convention</a>
+                      <a class="navbar-brand" href="#"><h2>Niagara Falls Convention</h2></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li><li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li><li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                        </ul>
+                      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page"
+                               href="#">
+                                  <h2 class="d-sm-none"><h2></a>
+                            </li>
+                          </ul>
+                        <form class="d-flex">
+                            <ul class=" fw-normal collapse navbar-collapse "id="navbarSupportedContent">
+                                <li class="nav-item">
+                                  <a class="nav-link active text-bold " aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link fs-6" href="#content">Content</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#package">Package</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#plan">Plan</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                              </ul>
+                        </form>
                       </div>
                     </div>
                   </nav>
             </div>
-  
         </section>
-        <br>
         <!-- Navigation-bar -->
         <!-- Carousel part  -->
         <section class="">
@@ -115,12 +127,12 @@
         <!-- https://classroom.github.com/a/DSUQJcwB -->
         <!-- --------------------------------------------------- -->
         <!-- Event type  -->
-        <section class="container my-5">
+        <section class="container my-5 " id="content">
             <h2 class="text-center"><i class="far fa-star text-info"></i>RECOMMENDED CONTENT</h2>
             <div class=" container-fluid row row-cols-1 row-cols-md-2 g-4 my-3">
                 <div class="col">
                   <div class="card h-100 shadow-lg">
-                    <img src="/event1.jpg" class="card-img-top" alt="...">
+                    <img src="/images/event1.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h3 class="card-title text-info">Weeding</h3>
                       <p class="card-text">Hosting a weeding at the Conference and event center Niagara Falls is uniq opportunity for both the bridal party and guest..</p>
@@ -133,7 +145,7 @@
                 </div>
                 <div class="col">
                   <div class="card h-100 shadow-lg">
-                    <img src="room.jpg" class="card-img-top" alt="...">
+                    <img src="/images/room.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h3 class="card-title text-info">Catering</h3>
                       <p class="card-text">After over 20 years of catering the Lewiston region, we’ve learned that the best and most successful events aren’t just about the food..
@@ -147,7 +159,7 @@
                 </div>
                 <div class="col">
                   <div class="card h-100 shadow-lg">
-                    <img src="adi.jpg" class="card-img-top" alt="...">
+                    <img src="/images/adi.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h3 class="card-title text-info">Audio Visual</h3>
                       <p class="card-text">The Conference and Event center Niagara Falls offers extensive Audio visual services for total event coverage,from start to finish..</p>
@@ -159,7 +171,7 @@
                 </div>
                 <div class="col">
                   <div class="card h-100 shadow-lg">
-                    <img src="/wed.jpeg" class="card-img-top" alt="...">
+                    <img src="/images/wed.jpeg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h3 class="card-title text-info">Sustainability</h3>
                       <p class="card-text"> We strive to be leaders in sustainability by creating programs that are accessible, inclusive and encourage the participation of all stakeholders..</p>
@@ -173,7 +185,7 @@
         </section>
         <br>
                     <!-- section no-1 start  -->
-        <section class="container my-5 ">
+        <section class="container my-5 " id="package">
             <h1 class="text-center"><i class="far fa-star text-info"></i>Our  Package</h1>
            <div class="container-fluid row row-cols-1 row-cols-md-2 row-cols-lg-4 my-3 g-5">
             <article class=" col  rounded-3 shadow-lg box-costom-design border border-light border-3 p-4 ">
@@ -296,7 +308,7 @@
                       </div>
                 </div>
                 <div class="col-lg-6 border-none rounded-3 mt-3">
-                    <img  class="img-fluid" src="/people.png" alt="">
+                    <img  class="img-fluid" src="/images/people.png" alt="">
                 </div>
             </div>
         </section>
@@ -304,12 +316,12 @@
         <!-- --------------------------------------------------- -->
 
                     <!-- section no-3 start  -->
-        <section class=" my-5">
+        <section class=" my-5 " id="plan">
             <h2 class="text-center"><i class="far fa-star text-info"></i>Plan Your Trip</h2>
             <div class="container-fluid row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4  ">
                 <div class="col p-5">
                   <div class="card shadow-lg">
-                    <img src="facility-map.jpeg" class="card-img-top" alt="...">
+                    <img src="/images/facility-map.jpeg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h4 class="card-title text-info">FLOOR PLAN</h4>
                       <p class="card-text">116,000 sq.ft of flexibke meeting and event space inckuding:Exhibition and meeting space located <br> on a singke level...</p>
@@ -320,7 +332,7 @@
                 </div>
                 <div class="col p-5">
                   <div class="card shadow-lg">
-                    <img src="dsc1.jpg" class="card-img-top" alt="...">
+                    <img src="/images/dsc1.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h4 class="card-title text-info">LOCATION</h4>
                       <p class="card-text">It is across the street from Seneca Niagara Casino and 2 blocks from Niagara Falls.The main entrance to The Conference & Event and more...</p>
@@ -331,7 +343,7 @@
                 </div>
                 <div class="col p-5 ">
                   <div class="card shadow-lg">
-                    <img src="dsc2.jpg" class="card-img-top" alt="...">
+                    <img src="/images/dsc2.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h4 class="card-title text-info">RULES AND REGULATION</h4>
                       <p class="card-text">We hope this information will assist you in planning your event and n communicating with our staff.We have developed these...</p>
@@ -342,7 +354,7 @@
                 </div>
                 <div class="col p-5">
                   <div class="card shadow-lg">
-                    <img src="dsc2.jpg" class="card-img-top" alt="...">
+                    <img src="/images/others.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                       <h4 class="card-title text-info">ORDER SERVICES &Others</h4>
                       <p class="card-text">For your convenience, we have tried to make this process as easy for you as possible, you may need to fill out the following form....</p>
@@ -360,7 +372,7 @@
     <!-- ================================================================================= -->
 
     <!-- Footer part start  -->
-    <footer class="bg-dark">
+    <footer class="bg-dark" id="contact">
         <!-- Footer part no-1  -->
         <section class="container-sm container-md container-lg p-5">
            <div class="d-flex  justify-content-around align-items-center">
